@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:custom="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:padding="20dp">
+
+    <com.example.next.customview.CustomVolumControlBar
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        custom:circleWidth="20dp"
+        custom:firstColor="@color/red"
+        custom:secondColor="@color/huise"
+        custom:image="@drawable/round_firefox"
+        custom:splitSize="20"
+        custom:dotCount="10"/>
+
+</RelativeLayout>
